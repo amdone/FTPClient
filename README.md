@@ -1,7 +1,7 @@
 # FTPClient
 FTP Client for Linux base vsftpd server
 
-### 二、 Linux安装FTP服务器  
+### 一、 Linux安装FTP服务器  
 
 ##### 1. 安装  
 
@@ -289,7 +289,7 @@ FTP协议有两种工作方式：PORT方式和PASV方式，中文意思为主动
 
 - - -
 
-
+### 二、 命令码以及响应码  
 
 ```
 ABOR 中断数据连接程序 
