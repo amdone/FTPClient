@@ -1,0 +1,28 @@
+命令分类：
+	根据作用对象分：本地命令、服务器命令
+		本地命令(非登录即使用)：断开服务器连接状态(不兼容使用本地命令服务器命令)
+			help、version、lls、lcd、lpwd、lsize、clear、open(需要登录名和密码)、quit(/bye)
+		服务器命令(非登录禁止使用)：连接服务器状态(兼容使用本地命令)
+			pwd、ls、mkdir、cd、rmdir、put、size、get、del、close
+
+---------------------------------------------------------------------------------------------------------------
+./ftp_cli 127.0.0.1
+user pwd
+pwd
+rmdir test
+ls
+mkdir test
+cd test
+put 1.mp3
+pwd
+ls 
+size
+cd ../
+ls ../目录名
+get 2.mp3
+del
+clear
+close
+ls
+open 127.0.0.1
+bye/quit
